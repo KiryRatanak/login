@@ -1,13 +1,9 @@
-@font-face {
-    font-family: "Montserrat-Bold";
-    src: url(./Font/Montserrat-Bold.ttf) format("truetype");
-  }
+
   body {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    /* background: radial-gradient(#833ab4, #e1306c); */
     background-color: #f5f5f5;
     font-family: Arial, sans-serif;
   }
@@ -21,7 +17,6 @@
     max-width: 300px;
   }
   h2 {
-    font-family: "Montserrat-Bold";
     font-weight: bold;
   }
   form {
@@ -45,19 +40,11 @@
     border: none;
   }
   .login {
-    background: linear-gradient(to right, #833ab4, #c13584, #e1306c);
+    background: linear-gradient(to right, purple, #c13584, #e1306c);
     color: white;
-  }
-  .login:hover {
-    scale: 1.1;
-    transition: 1s;
   }
   .signup {
     background-color: white;
-  }
-  .signup:hover {
-    scale: 1.1;
-    transition: 1s;
   }
   input {
     width: 100%;
@@ -66,16 +53,14 @@
     padding: 12px 5px;
     border: none;
     border-radius: 8px;
-    color: #e1306c;
+    color: #e13066;
   }
   input:focus {
-    /* outline-color: #c13584;
-    outline-width: 0.1px; */
-    outline: none;
+   outline-color: #c13584;
+    outline-width: 0.1px;
   }
   ::placeholder {
-    color: #e1306c;
-    opacity: 0.7;
+    color: black;
   }
   .p {
     display: block;
@@ -90,7 +75,7 @@
     width: 100%;
     margin-top: 5px;
     padding: 10px;
-    background: linear-gradient(to right, #833ab4, #e1306c);
+    background: linear-gradient(to right, purple, #e1306c);
     color: white;
     border: none;
     border-radius: 5px;
@@ -98,14 +83,14 @@
     cursor: pointer;
   }
   .btn2:hover {
-    background: linear-gradient(to right, #fcaf45, #fd1d1d);
+    background: linear-gradient(to right, #fd1d1d, purple);
     border-radius: 0;
     transition: 0.5s;
   }
-  .sign-now {
+  .signup-now {
     font-size: 14px;
     & a {
-      color: #c13584;
+      color: #c13585;
       text-decoration: none;
     }
   }
